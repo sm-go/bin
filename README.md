@@ -11,9 +11,10 @@ script file ရေးသားပြီး ခေါ်သုံးခြင်�
 - $ cd bin/
 - /bin$ touch helloscript
 ---
-` #!/bin/bash
+```bash
+#!/bin/bash
 script logic code is here..! 
-`
+```
 ---
 - /bin$ chmod +x helloscript
 - /bin$ bash helloscript
