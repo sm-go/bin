@@ -12,7 +12,8 @@ script file ရေးသားပြီး ခေါ်သုံးခြင်�
 - /bin$ touch helloscript
 ---
 ` #!/bin/bash
-script logic code is here..! `
+script logic code is here..! 
+`
 ---
 - /bin$ chmod +x helloscript
 - /bin$ bash helloscript
