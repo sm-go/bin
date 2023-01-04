@@ -6,6 +6,7 @@ script file ရေးသားပြီး ခေါ်သုံးခြင်�
 4. source .profile လုပ်ပါ။
 5. ပြီးရင် file name ဖြင့် ခေါ် run နိုင်ပြီ
 ---
+`
 toe@toe$ mkdir bin
 $ cd bin/
 /bin$ touch helloscript
@@ -17,3 +18,4 @@ script logic code is here..!
 /bin$ bash helloscript
 $ source .profile
 $ helloscript
+`
