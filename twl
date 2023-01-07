@@ -35,3 +35,27 @@ echo -e ${NONE} ${BOLD}
 ncal
 echo -e ${NONE} ${YELLOW}
 echo -e "Hello $(pwd)" ${NONE}
+
+# echo "You type $1 $2"
+case $1 in
+-h | --help)
+  echo "WELCOME TO WEATHER HELP"
+  echo "-3 for next 3 days of weather"
+  ;;
+-v | --version)
+  echo "This is the version 1.1.1"
+  # curl "wttr.in"
+  ;;
+-3)
+  echo "YOU PROVIDED -3"
+  # curl "wttr.in"
+  ;;
+-l | --location)
+  # curl "wttr.in/$2"
+  echo "YOU LOCATION IS $2"
+  ;; 
+*)
+  # curl "wttr.in?m1"
+  echo "CREATED BY TWL"
+  ;;
+esac
